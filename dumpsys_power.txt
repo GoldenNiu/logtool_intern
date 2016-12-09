@@ -1,0 +1,196 @@
+Current Alarm Manager state:
+  Settings:
+    min_futurity=+5s0ms
+    min_interval=+60s0ms
+    allow_while_idle_short_time=+5s0ms
+    allow_while_idle_long_time=+9m0s0ms
+    allow_while_idle_whitelist_duration=+10s0ms
+
+  nowRTC=1473398237434=2016-09-09 13:17:17 nowELAPSED=+1d18h54m29s735ms
+  mLastTimeChangeClockTime=1473388999007=2016-09-09 10:43:19
+  mLastTimeChangeRealtime=+1d16h20m31s799ms
+  Time since non-interactive: +1h29m14s548ms
+  Max wakeup delay: +60m0s0ms
+  Time since last dispatch: +24s362ms
+  Next non-wakeup delivery time: -1h29m42s566ms
+  Next non-wakeup alarm: +1h29m42s566ms = 2016-09-09 14:47:00
+  Next wakeup: +1m13s467ms = 2016-09-09 13:18:30
+  Num time change events: 12
+
+  Next alarm clock information: 
+
+  Pending alarm batches: 10
+Batch{534b271 num=2 start=154543202 end=154550372}:
+    RTC_WAKEUP #1: Alarm{a349856 type 0 when 1473398310901 com.duowan.kiwi}
+      tag=*walarm*:com.yy.pushsvc.WakeUpBroadcast
+      type=0 whenElapsed=+1m13s467ms when=2016-09-09 13:18:30
+      window=+3m45s0ms repeatInterval=300000 count=0 flags=0x0
+      operation=PendingIntent{1962cf0: PendingIntentRecord{427269 com.duowan.kiwi broadcastIntent}}
+    RTC_WAKEUP #0: Alarm{75340d7 type 0 when 1473398273072 com.duowan.kiwi}
+      tag=*walarm*:HEART_BEAT
+      type=0 whenElapsed=+35s637ms when=2016-09-09 13:17:53
+      window=+45s0ms repeatInterval=60000 count=0 flags=0x0
+      operation=PendingIntent{3cebec: PendingIntentRecord{e5a8bb5 com.duowan.kiwi broadcastIntent}}
+Batch{97e4dc4 num=2 start=154821883 end=154835708 flgs=0x8}:
+    ELAPSED_WAKEUP #1: Alarm{1104ad type 2 when 154821883 com.android.phone}
+      tag=*walarm*:com.android.internal.telephony.data-stall
+      type=2 whenElapsed=+5m52s148ms when=+5m52s148ms
+      window=+4m29s999ms repeatInterval=0 count=0 flags=0x8
+      operation=PendingIntent{179e3e2: PendingIntentRecord{7211373 com.android.phone broadcastIntent}}
+    RTC_WAKEUP #0: Alarm{af48230 type 0 when 1473398400907 com.duowan.kiwi}
+      tag=*walarm*:com.yy.pushsrv.PUSH_ALARM
+      type=0 whenElapsed=+2m43s473ms when=2016-09-09 13:20:00
+      window=+3m22s500ms repeatInterval=270000 count=0 flags=0x0
+      operation=PendingIntent{622d8f: PendingIntentRecord{f49281c com.duowan.kiwi broadcastIntent}}
+Batch{ae63ea9 num=1 start=154857845 end=156207845 flgs=0x8}:
+    ELAPSED #0: Alarm{ad65c2e type 3 when 154857845 android}
+      tag=*alarm*:com.android.server.action.NETWORK_STATS_POLL
+      type=3 whenElapsed=+6m28s110ms when=+6m28s110ms
+      window=+22m30s0ms repeatInterval=1800000 count=0 flags=0x8
+      operation=PendingIntent{4de13ab: PendingIntentRecord{dceaa08 android broadcastIntent}}
+Batch{6ef73cf num=1 start=155233301 end=155233301 flgs=0x1}:
+    RTC #0: Alarm{a57915c type 1 when 1473399001000 com.android.deskclock}
+      tag=*alarm*:com.android.deskclock.ON_QUARTER_HOUR
+      type=1 whenElapsed=+12m43s566ms when=2016-09-09 13:30:01
+      window=0 repeatInterval=0 count=0 flags=0x1
+      operation=PendingIntent{ebb1c65: PendingIntentRecord{3700d3a com.android.deskclock broadcastIntent}}
+Batch{f997deb num=2 start=162785021 end=164641598 flgs=0x8}:
+    RTC #1: Alarm{77a6748 type 1 when 1473406552720 com.android.inputmethod.latin}
+      tag=*alarm*:com.android.inputmethod.dictionarypack.aosp.UPDATE_NOW
+      type=1 whenElapsed=+2h18m35s286ms when=2016-09-09 15:35:52
+      window=+2h41m14s604ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{44619e1: PendingIntentRecord{2c1c306 com.android.inputmethod.latin broadcastIntent}}
+    ELAPSED #0: Alarm{2900dc7 type 3 when 159813157 android}
+      tag=*alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED
+      type=3 whenElapsed=+1h29m3s422ms when=+1h29m3s422ms
+      window=+1h20m28s441ms repeatInterval=0 count=0 flags=0x8
+      operation=PendingIntent{a72aff4: PendingIntentRecord{f29731d android broadcastIntent}}
+Batch{b270992 num=1 start=173511829 end=173511829 flgs=0x9}:
+    RTC #0: Alarm{d75bf63 type 1 when 1473417279528 android}
+      tag=*alarm*:com.android.server.action.UPDATE_TWILIGHT_STATE
+      type=1 whenElapsed=+5h17m22s94ms when=2016-09-09 18:34:39
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{504d760: PendingIntentRecord{5ef3d9b android broadcastIntent}}
+Batch{ef2419 num=1 start=193032301 end=225391517}:
+    RTC #0: Alarm{7282cde type 1 when 1473436800000 com.android.calendar}
+      tag=*alarm*:com.android.calendar.APPWIDGET_SCHEDULED_UPDATE
+      type=1 whenElapsed=+10h42m42s566ms when=2016-09-10 00:00:00
+      window=+8h59m19s216ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{b7aeebf: PendingIntentRecord{67a1877 com.android.calendar broadcastIntent}}
+Batch{ed0098c num=2 start=231626245 end=289868351 flgs=0x8}:
+    ELAPSED #1: Alarm{fc4e8d5 type 3 when 231626245 android}
+      tag=*alarm*:com.android.server.NetworkTimeUpdateService.action.POLL
+      type=3 whenElapsed=+21h25m56s510ms when=+21h25m56s510ms
+      window=+18h0m0s0ms repeatInterval=0 count=0 flags=0x8
+      operation=PendingIntent{8755949: PendingIntentRecord{2a1724e android broadcastIntent}}
+    ELAPSED #0: Alarm{f8638ea type 3 when 231371302 android}
+      tag=*alarm*:android.content.jobscheduler.JOB_DEADLINE_EXPIRED
+      type=3 whenElapsed=+21h21m41s567ms when=+21h21m41s567ms
+      window=+16h14m57s49ms repeatInterval=0 count=0 flags=0x8
+      operation=PendingIntent{7f5b54d: PendingIntentRecord{769d802 android broadcastIntent}}
+Batch{79b7db num=1 start=236232301 end=236232301 flgs=0x1}:
+    RTC #0: Alarm{83a3278 type 1 when 1473480000000 android}
+      tag=*alarm*:android.intent.action.DATE_CHANGED
+      type=1 whenElapsed=+22h42m42s566ms when=2016-09-10 12:00:00
+      window=0 repeatInterval=0 count=0 flags=0x1
+      operation=PendingIntent{7c2659e: PendingIntentRecord{eef987f android broadcastIntent}}
+Batch{cf83d51 num=1 start=604877181 end=607577181 flgs=0x8}:
+    ELAPSED #0: Alarm{832e47c type 3 when 604877181 com.qti.smq.qualcommFeedback}
+      tag=*alarm*:com.qti.smq.qualcommFeedback.StatManQService.ACTION_WATCHDOG
+      type=3 whenElapsed=+5d5h6m47s446ms when=+5d5h6m47s446ms
+      window=+45m0s0ms repeatInterval=3600000 count=0 flags=0x8
+      operation=PendingIntent{3314105: PendingIntentRecord{ca6655a com.qti.smq.qualcommFeedback broadcastIntent}}
+
+  Past-due non-wakeup alarms: 1
+    ELAPSED #0: Alarm{606f9b6 type 3 when 154452301 android}
+      tag=*alarm*:android.intent.action.TIME_TICK
+      type=3 whenElapsed=-17s434ms when=-17s434ms
+      window=0 repeatInterval=0 count=1 flags=0x1
+      operation=PendingIntent{302dad8: PendingIntentRecord{1f52e31 android broadcastIntent}}
+    Number of delayed alarms: 1916, total delay time: +20h48m20s920ms
+    Max delay time: +39m13s561ms, max non-interactive time: +5h3m18s178ms
+
+  Broadcast ref count: 0
+
+  mAllowWhileIdleMinTime=+5s0ms
+
+  Top Alarms:
+    +4m21s747ms running, 0 wakeups, 2215 alarms: 1000:android
+      *alarm*:android.intent.action.TIME_TICK
+    +30s125ms running, 2418 wakeups, 2418 alarms: u0a79:com.duowan.kiwi
+      *walarm*:HEART_BEAT
+    +11s168ms running, 481 wakeups, 481 alarms: u0a79:com.duowan.kiwi
+      *walarm*:com.yy.pushsvc.WakeUpBroadcast
+    +10s995ms running, 535 wakeups, 535 alarms: u0a79:com.duowan.kiwi
+      *walarm*:com.yy.pushsrv.PUSH_ALARM
+    +10s957ms running, 9 wakeups, 9 alarms: u0a2:com.android.providers.calendar
+      *walarm*:com.android.providers.calendar.intent.CalendarProvider2
+    +6s938ms running, 0 wakeups, 86 alarms: 1000:android
+      *alarm*:com.android.server.action.NETWORK_STATS_POLL
+    +5s221ms running, 0 wakeups, 169 alarms: u0a42:com.android.deskclock
+      *alarm*:com.android.deskclock.ON_QUARTER_HOUR
+    +2s45ms running, 77 wakeups, 77 alarms: 1001:com.android.phone
+      *walarm*:com.android.internal.telephony.data-stall
+    +1s471ms running, 0 wakeups, 3 alarms: 1000:android
+      *alarm*:android.intent.action.DATE_CHANGED
+    +1s213ms running, 0 wakeups, 8 alarms: 1000:android
+      *alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED
+ 
+  Alarm Stats:
+  1000:android +4m27s209ms running, 17 wakeups:
+    +4m21s747ms 0 wakes 2215 alarms, last -24s362ms:
+      *alarm*:android.intent.action.TIME_TICK
+    +6s938ms 0 wakes 86 alarms, last -23m24s362ms:
+      *alarm*:com.android.server.action.NETWORK_STATS_POLL
+    +1s471ms 0 wakes 3 alarms, last -1h16m24s362ms:
+      *alarm*:android.intent.action.DATE_CHANGED
+    +1s213ms 0 wakes 8 alarms, last -6h43m46s570ms:
+      *alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED
+    +391ms 4 wakes 4 alarms, last -3h50m45s923ms:
+      *walarm*:android.net.dhcp.DhcpClient.wlan0.RENEW
+    +230ms 11 wakes 11 alarms, last -18m14s542ms:
+      *walarm*:com.android.server.task.controllers.IdleController.ACTION_TRIGGER_IDLE
+    +38ms 0 wakes 3 alarms, last -8h4m23s897ms:
+      *alarm*:com.android.server.action.UPDATE_TWILIGHT_STATE
+    +15ms 1 wakes 1 alarms, last -15h50m15s809ms:
+      *walarm*:android.net.netmon.lingerExpired_104_-1762465433
+    +2ms 1 wakes 1 alarms, last -1d16h19m40s572ms:
+      *walarm*:android.net.netmon.lingerExpired_102_-748550444
+  1000:com.qualcomm.qti.extsettings +58ms running, 0 wakeups:
+    +58ms 0 wakes 1 alarms, last -2h34m46s263ms:
+      *alarm*:com.android.wificall.REFRESH_RADIO
+  1001:com.android.phone +2s332ms running, 79 wakeups:
+    +2s45ms 77 wakes 77 alarms, last -3h23m24s604ms:
+      *walarm*:com.android.internal.telephony.data-stall
+    +287ms 2 wakes 2 alarms, last -1d16h47m51s861ms:
+      *walarm*:com.qti.internal.telephony.dataconnection.QtiDataConnection.QtiDC-1.action_retry
+  1002:com.android.bluetooth +331ms running, 24 wakeups:
+    +331ms 24 wakes 24 alarms, last -16h2m32s283ms:
+      *walarm*:com.android.bluetooth.btservice.action.ALARM_WAKEUP
+  u0a2:com.android.providers.calendar +10s957ms running, 9 wakeups:
+    +10s957ms 9 wakes 9 alarms, last -2h33m52s913ms:
+      *walarm*:com.android.providers.calendar.intent.CalendarProvider2
+  u0a24:com.android.systemui +614ms running, 23 wakeups:
+    +367ms 3 wakes 3 alarms, last -1d16h58m13s964ms:
+      *walarm*:com.android.systemui.doze.notification_pulse
+    +247ms 20 wakes 20 alarms, last -2h30m33s60ms:
+      *walarm*:com.android.internal.policy.impl.PhoneWindowManager.DELAYED_KEYGUARD
+  u0a34:com.android.calendar +165ms running, 0 wakeups:
+    +165ms 0 wakes 2 alarms, last -13h17m17s555ms:
+      *alarm*:com.android.calendar.APPWIDGET_SCHEDULED_UPDATE
+  u0a42:com.android.deskclock +5s221ms running, 0 wakeups:
+    +5s221ms 0 wakes 169 alarms, last -1m46s525ms:
+      *alarm*:com.android.deskclock.ON_QUARTER_HOUR
+  u0a65:com.android.inputmethod.latin +65ms running, 0 wakeups:
+    +65ms 0 wakes 2 alarms, last -23h11m1s870ms:
+      *alarm*:com.android.inputmethod.dictionarypack.aosp.UPDATE_NOW
+  u0a72:com.qualcomm.embms +94ms running, 0 wakeups:
+    +94ms 0 wakes 1 alarms, last -1d17h39m15s370ms:
+      *alarm*:com.qualcomm.embms.EmbmsSntpClient.action.RING_ALARM
+  u0a79:com.duowan.kiwi +34s447ms running, 3434 wakeups:
+    +30s125ms 2418 wakes 2418 alarms, last -24s362ms:
+      *walarm*:HEART_BEAT
+    +11s168ms 481 wakes 481 alarms, last -3m46s534ms:
+      *walarm*:com.yy.pushsvc.WakeUpBroadcast
+    +10s995ms 535 wakes 535 alarms, last -1m46s525ms:
+      *walarm*:com.yy.pushsrv.PUSH_ALARM

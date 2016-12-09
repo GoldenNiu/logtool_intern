@@ -1,0 +1,170 @@
+==================== top =========================
+92127.11 665755.30
+
+
+
+User 1%, System 2%, IOW 0%, IRQ 0%
+User 12 + Nice 0 + Sys 24 + Idle 950 + IOW 1 + IRQ 5 + SIRQ 0 = 992
+
+  PID   TID PR CPU% S     VSS     RSS PCY UID      Thread          Proc
+17385 17385  7   2% R   4592K   1824K  fg root     top             top
+  718  6351  4   0% S 163112K  17304K  fg media    AudioOut_1E     /system/bin/mediaserver
+ 2829  2910  4   0% S 1958760K 247876K  bg u0_a79   Thread-71       com.duowan.kiwi
+ 1337  1971  4   0% S 2278716K 124080K  fg system   Binder_5        system_server
+  492   492  6   0% S   4176K   1136K  fg root     lmkd            /system/bin/lmkd
+ 5315  6296  6   0% S 1588740K  50200K  bg u0_a79   svc.PushService com.duowan.kiwi:com.yy.pushsvc.PushService
+ 2829  2829  5   0% S 1958760K 247876K  bg u0_a79   com.duowan.kiwi com.duowan.kiwi
+15662 15662  7   0% S      0K      0K  fg root     kworker/7:2     
+   46    46  6   0% S      0K      0K  fg root     rcuop/5         
+ 3028  4239  5   0% S 953904K  51052K  bg u0_a82   Dispatch-messag com.sina.weibo:remote
+16789 16789  6   0% S      0K      0K  fg root     kworker/u16:4   
+ 3028  3152  5   0% S 953904K  51052K  bg u0_a82   pool-9-thread-1 com.sina.weibo:remote
+ 1337  1484  4   0% S 2278716K 124080K  fg system   Binder_1        system_server
+17000 17000  6   0% S      0K      0K  fg root     kworker/u16:0   
+ 1337  2305  5   0% S 2278716K 124080K  fg system   Binder_7        system_server
+ 1337  2323  6   0% S 2278716K 124080K  fg system   Binder_9        system_server
+  329   329  7   0% D      0K      0K  fg root     mmc-cmdqd/0     
+ 3556  3556  5   0% S 971300K  65396K  bg u0_a82   Net Work Manage com.sina.weibo
+ 1337  1487  7   0% S 2278716K 124080K  fg system   ActivityManager system_server
+  703   703  5   0% S      0K      0K  fg root     jbd2/dm-0-8     
+ 2829  2899  6   0% S 1958760K 247876K  bg u0_a79   com.duowan.kiwi com.duowan.kiwi
+   26    26  7   0% S      0K      0K  fg root     rcuos/2         
+   27    27  0   0% S      0K      0K  fg root     rcuob/2         
+   28    28  3   0% S      0K      0K  fg root     migration/3     
+   29    29  3   0% S      0K      0K  fg root     ksoftirqd/3     
+==================== top =========================
+92128.65 665768.48
+
+
+
+User 0%, System 1%, IOW 0%, IRQ 0%
+User 3 + Nice 0 + Sys 18 + Idle 917 + IOW 0 + IRQ 2 + SIRQ 0 = 940
+
+  PID   TID PR CPU% S     VSS     RSS PCY UID      Thread          Proc
+17386 17386  5   2% R   4592K   1824K  fg root     top             top
+  718  6351  6   0% S 163112K  17304K  fg media    AudioOut_1E     /system/bin/mediaserver
+ 2829  2910  4   0% S 1958760K 247876K  bg u0_a79   Thread-71       com.duowan.kiwi
+17000 17000  7   0% S      0K      0K  fg root     kworker/u16:0   
+ 2829  2829  6   0% S 1958760K 247876K  bg u0_a79   com.duowan.kiwi com.duowan.kiwi
+  494   674  6   0% S 146036K  21448K  fg system   EventThread     /system/bin/surfaceflinger
+ 1337  2322  5   0% S 2278716K 124080K  fg system   Binder_8        system_server
+ 2044  2044  5   0% S      0K      0K  fg root     VosMCThread     
+ 1337  2380  5   0% S 2278716K 124080K  fg system   Binder_C        system_server
+ 1337  1933  4   0% S 2278716K 124080K  fg system   Binder_3        system_server
+ 1337  1966  4   0% S 2278716K 124080K  fg system   Binder_4        system_server
+   14    14  1   0% S      0K      0K  fg root     migration/1     
+   15    15  1   0% S      0K      0K  fg root     ksoftirqd/1     
+   17    17  1   0% S      0K      0K  fg root     kworker/1:0H    
+   18    18  7   0% S      0K      0K  fg root     rcuop/1         
+   19    19  7   0% S      0K      0K  fg root     rcuos/1         
+   20    20  0   0% S      0K      0K  fg root     rcuob/1         
+   21    21  2   0% S      0K      0K  fg root     migration/2     
+   22    22  2   0% S      0K      0K  fg root     ksoftirqd/2     
+   24    24  2   0% S      0K      0K  fg root     kworker/2:0H    
+   25    25  4   0% S      0K      0K  fg root     rcuop/2         
+   26    26  7   0% S      0K      0K  fg root     rcuos/2         
+   27    27  0   0% S      0K      0K  fg root     rcuob/2         
+   28    28  3   0% S      0K      0K  fg root     migration/3     
+   29    29  3   0% S      0K      0K  fg root     ksoftirqd/3     
+==================== top =========================
+92130.10 665773.76
+
+
+
+User 1%, System 2%, IOW 0%, IRQ 0%
+User 13 + Nice 0 + Sys 20 + Idle 906 + IOW 1 + IRQ 2 + SIRQ 0 = 942
+
+  PID   TID PR CPU% S     VSS     RSS PCY UID      Thread          Proc
+17387 17387  5   2% R   4592K   1824K  fg root     top             top
+  718  6351  4   0% S 163112K  17304K  fg media    AudioOut_1E     /system/bin/mediaserver
+ 2829  2910  4   0% S 1958760K 248012K  bg u0_a79   Thread-71       com.duowan.kiwi
+ 1922  1922  6   0% S 1522580K 108456K  fg u0_a24   ndroid.systemui com.android.systemui
+17000 17000  4   0% S      0K      0K  fg root     kworker/u16:0   
+  494   673  6   0% S 146036K  21448K  fg system   POSIX timer 0   /system/bin/surfaceflinger
+ 1337  2349  4   0% S 2278716K 124080K  fg system   Binder_A        system_server
+ 1337  1485  4   0% S 2278716K 124080K  fg system   Binder_2        system_server
+ 1922  1964  7   0% S 1522580K 108456K  fg u0_a24   Binder_2        com.android.systemui
+ 2829  2829  6   0% S 1958760K 248012K  bg u0_a79   com.duowan.kiwi com.duowan.kiwi
+ 1337  2401  4   0% S 2278716K 124080K  fg system   Binder_F        system_server
+   53    53  4   0% S      0K      0K  fg root     rcuop/6         
+   46    46  7   0% S      0K      0K  fg root     rcuop/5         
+ 2829  2906  4   0% S 1958760K 248012K  bg u0_a79   Thread-575149   com.duowan.kiwi
+15994 15994  4   0% S      0K      0K  fg root     kworker/4:2     
+ 1337  1337  7   0% S 2278716K 124080K  fg system   system_server   system_server
+   20    20  0   0% S      0K      0K  fg root     rcuob/1         
+   21    21  2   0% S      0K      0K  fg root     migration/2     
+   22    22  2   0% S      0K      0K  fg root     ksoftirqd/2     
+   24    24  2   0% S      0K      0K  fg root     kworker/2:0H    
+   25    25  4   0% S      0K      0K  fg root     rcuop/2         
+   26    26  7   0% S      0K      0K  fg root     rcuos/2         
+   27    27  0   0% S      0K      0K  fg root     rcuob/2         
+   28    28  3   0% S      0K      0K  fg root     migration/3     
+   29    29  3   0% S      0K      0K  fg root     ksoftirqd/3     
+==================== top =========================
+92131.57 665781.90
+
+
+
+User 0%, System 1%, IOW 0%, IRQ 0%
+User 5 + Nice 0 + Sys 16 + Idle 919 + IOW 0 + IRQ 6 + SIRQ 0 = 946
+
+  PID   TID PR CPU% S     VSS     RSS PCY UID      Thread          Proc
+17388 17388  5   2% R   4592K   1824K  fg root     top             top
+  718  6351  4   0% S 163112K  17304K  fg media    AudioOut_1E     /system/bin/mediaserver
+ 2829  2910  6   0% S 1958760K 248012K  bg u0_a79   Thread-71       com.duowan.kiwi
+ 2829  2911  6   0% S 1958760K 248012K  bg u0_a79   Thread-61       com.duowan.kiwi
+   46    46  6   0% S      0K      0K  fg root     rcuop/5         
+  494   559  4   0% S 146036K  21448K  fg system   Binder_2        /system/bin/surfaceflinger
+ 2383  2494  5   0% S 1505856K  70808K  fg radio    RILReceiver1    com.android.phone
+   50    50  6   0% S      0K      0K  fg root     ksoftirqd/6     
+  494   674  4   0% S 146036K  21448K  fg system   EventThread     /system/bin/surfaceflinger
+16789 16789  7   0% S      0K      0K  fg root     kworker/u16:4   
+  494  1497  4   0% S 146036K  21448K  fg system   Binder_3        /system/bin/surfaceflinger
+ 2062  2062  6   0% S      0K      0K  fg root     wlan_logging_th 
+17000 17000  7   0% S      0K      0K  fg root     kworker/u16:0   
+  494  1498  6   0% S 146036K  21448K  fg system   Binder_4        /system/bin/surfaceflinger
+ 2829  2829  6   0% S 1958760K 248012K  bg u0_a79   com.duowan.kiwi com.duowan.kiwi
+   19    19  7   0% S      0K      0K  fg root     rcuos/1         
+   20    20  0   0% S      0K      0K  fg root     rcuob/1         
+   21    21  2   0% S      0K      0K  fg root     migration/2     
+   22    22  2   0% S      0K      0K  fg root     ksoftirqd/2     
+   24    24  2   0% S      0K      0K  fg root     kworker/2:0H    
+   25    25  4   0% S      0K      0K  fg root     rcuop/2         
+   26    26  7   0% S      0K      0K  fg root     rcuos/2         
+   27    27  0   0% S      0K      0K  fg root     rcuob/2         
+   28    28  3   0% S      0K      0K  fg root     migration/3     
+   29    29  3   0% S      0K      0K  fg root     ksoftirqd/3     
+==================== top =========================
+92133.02 665787.17
+
+
+
+User 0%, System 1%, IOW 0%, IRQ 0%
+User 6 + Nice 0 + Sys 18 + Idle 925 + IOW 0 + IRQ 1 + SIRQ 0 = 950
+
+  PID   TID PR CPU% S     VSS     RSS PCY UID      Thread          Proc
+17390 17390  4   2% R   4592K   1824K  fg root     top             top
+  718  6351  5   0% S 163112K  17304K  fg media    AudioOut_1E     /system/bin/mediaserver
+ 2829  2910  6   0% S 1958760K 248016K  bg u0_a79   Thread-71       com.duowan.kiwi
+17000 17000  5   0% S      0K      0K  fg root     kworker/u16:0   
+ 2048  2048  6   0% S      0K      0K  fg root     VosRXThread     
+  494   673  6   0% S 146036K  21448K  fg system   POSIX timer 0   /system/bin/surfaceflinger
+ 2829  2829  6   0% S 1958760K 248016K  bg u0_a79   com.duowan.kiwi com.duowan.kiwi
+ 5315  6299  5   0% S 1588740K  50200K  bg u0_a79   Thread-1443     com.duowan.kiwi:com.yy.pushsvc.PushService
+ 1337  2390  5   0% S 2278716K 124080K  fg system   Binder_D        system_server
+   39    39  5   0% S      0K      0K  fg root     rcuop/4         
+   13    13  0   0% S      0K      0K  fg root     migration/0     
+   14    14  1   0% S      0K      0K  fg root     migration/1     
+   15    15  1   0% S      0K      0K  fg root     ksoftirqd/1     
+   17    17  1   0% S      0K      0K  fg root     kworker/1:0H    
+   18    18  7   0% S      0K      0K  fg root     rcuop/1         
+   19    19  7   0% S      0K      0K  fg root     rcuos/1         
+   20    20  0   0% S      0K      0K  fg root     rcuob/1         
+   21    21  2   0% S      0K      0K  fg root     migration/2     
+   22    22  2   0% S      0K      0K  fg root     ksoftirqd/2     
+   24    24  2   0% S      0K      0K  fg root     kworker/2:0H    
+   25    25  4   0% S      0K      0K  fg root     rcuop/2         
+   26    26  7   0% S      0K      0K  fg root     rcuos/2         
+   27    27  0   0% S      0K      0K  fg root     rcuob/2         
+   28    28  3   0% S      0K      0K  fg root     migration/3     
+   29    29  3   0% S      0K      0K  fg root     ksoftirqd/3     

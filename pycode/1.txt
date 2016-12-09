@@ -1,0 +1,2859 @@
+
+cmdline :
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+lcd_brightness: 0
+
+charging?: Charging//infor
+
+CPU0 governor : interactive
+
+CPU1 governor : interactive
+
+cmdline :
+
+sched_enable_hmp=1 sched_enable_power_aware=1 console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=orange androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=8fbd841 androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_r69006_1080p_cmd:1:none:cfg:single_dsi
+
+
+
+--------------------- Scheduler ---------------------------
+
+sched_account_wait_time = 1
+
+sched_big_waker_task_load = 25
+
+sched_boost = 0
+
+sched_child_runs_first = 0
+
+sched_cpu_high_irqload = 10000000
+
+sched_downmigrate = 100
+
+sched_early_detection_duration = 9500000
+
+sched_enable_colocation = 1
+
+sched_enable_power_aware = 1
+
+sched_enable_thread_grouping = 0
+
+sched_freq_account_wait_time = 0
+
+sched_freq_dec_notify = 200000
+
+sched_freq_inc_notify = 200000
+
+sched_heavy_task = 0
+
+sched_init_task_load = 15
+
+sched_latency_panic_threshold_us = 0
+
+sched_latency_warn_threshold_us = 0
+
+sched_max_latency_us = cpu0 comm=kworker/0:1 pid=77 latency=1255730(us)
+
+sched_migration_fixup = 1
+
+sched_new_task_windows = 5
+
+sched_pred_alert_freq = 10485760
+
+sched_prefer_sync_wakee_to_waker = 0
+
+sched_ravg_hist_size = 3
+
+sched_restrict_cluster_spill = 1
+
+sched_rr_timeslice_ms = 10
+
+sched_rt_period_us = 1000000
+
+sched_rt_runtime_us = 950000
+
+sched_select_prev_cpu_us = 2000
+
+sched_small_wakee_task_load = 10
+
+sched_spill_load = 100
+
+sched_spill_nr_run = 3
+
+sched_upmigrate = 100
+
+sched_upmigrate_min_nice = 15
+
+sched_wake_to_idle = 0
+
+sched_wakeup_load_threshold = 110
+
+sched_window_stats_policy = 3
+
+
+
+--------------------- Governor ---------------------------
+

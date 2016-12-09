@@ -1,0 +1,46 @@
+------------------------------------------------------------------------------------------------
+| [Basic Info] :
+|    Major:
+|         Time          : 2016-09-14 09:54:08
+|         Device        : qcom - fcdabbc5
+|         Charge        : charging
+|    Network:
+|         sim1          : CMCC TD-LTE CA, -90dbm //[duow] or airplane mode
+|         sim2          : N/A //[duow] or airplane mode
+|         wifi          : on
+|         bt            : on
+|         gps           : on
+|    Display: 
+|         resolution    : 1080p
+|         mode          : cmd
+|         brightness    : 110         
+|    Build:
+|         AP Build      : MSM8937.LA.1.0-00334-M8937.64.HY11.SLD.1XGWLT.INT-1
+|         Linux version : Linux version 3.18.20-ga9e54d6 (duow@duow-gv) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Tue May 17 10:08:21 CST 2016
+|         Modem         :
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+| [Top Info] :  //if powertop available, please use powertop
+|    User 0%, System 2%, IOW 0%, IRQ 0%
+|    User 8 + Nice 0 + Sys 25 + Idle 984 + IOW 0 + IRQ 0 + SIRQ 0 = 1017
+|      PID   TID PR CPU% S     VSS     RSS PCY UID      Thread          Proc
+|     5561  5561  0   2% R   4508K   1824K  fg root     top             top
+|     3749  3749  6   0% S      0K      0K  fg root     kworker/6:3     
+|     4931  4931  6   0% D      0K      0K  fg root     mdss_fb0        
+|     2068  2068  7   0% S 1504516K 107056K  fg u0_a18   ndroid.systemui com.android.systemui
+|      292   292  7   0% S      0K      0K  fg root     cfinteractive   
+|        7     7  7   0% S      0K      0K  fg root     rcu_preempt     
+|      415   415  7   0% S 129628K  18984K  fg system   surfaceflinger  /system/bin/surfaceflinger
+|     2068  2263  5   0% S 1504516K 107056K  fg u0_a18   RenderThread    com.android.systemui
+|      415   480  7   0% S 129628K  18984K  fg system   DispSync        /system/bin/surfaceflinger
+|       56    56  5   0% S      0K      0K  fg root     kworker/u16:2  
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+| [Ftrace Info] :
+|    //[duow] please try to parse ftrace log firstly, will update the format in next week
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+| [Clock Info] :
+|    Major:
+|         Time          : 2016-09-14 09:54:08
+------------------------------------------------------------------------------------------------

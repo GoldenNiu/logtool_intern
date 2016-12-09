@@ -1,0 +1,320 @@
+==================== clock ============================
+156809.89 1065026.57
+Enabled clocks:
+	xo_clk_src:4:4 [19200000]
+	xo_a_clk_src:3:3 [19200000]
+	bimc_clk:1:1 [100000000]
+	bimc_a_clk:1:1 [211156992]
+	pcnoc_clk:1:1 [100000000]
+	pcnoc_a_clk:2:2 [100000000]
+	snoc_clk:1:1 [100000000]
+	snoc_a_clk:1:1 [100000000]
+	ipa_clk:1:1 [75000000]
+	bimc_msmbus_clk:1:1 [100000000] -> bimc_clk:1:1 [100000000]
+	bimc_msmbus_a_clk:1:1 [211156992] -> bimc_a_clk:1:1 [211156992]
+	pcnoc_keepalive_a_clk:1:1 [19200000] -> pcnoc_a_clk:2:2 [100000000]
+	pcnoc_msmbus_clk:1:1 [100000000] -> pcnoc_clk:1:1 [100000000]
+	pcnoc_msmbus_a_clk:1:1 [100000000] -> pcnoc_a_clk:2:2 [100000000]
+	snoc_msmbus_clk:1:1 [100000000] -> snoc_clk:1:1 [100000000]
+	snoc_msmbus_a_clk:1:1 [100000000] -> snoc_a_clk:1:1 [100000000]
+	xo_dwc3_clk:1:1 [19200000] -> xo_clk_src:4:4 [19200000]
+	bb_clk1:2:2 [1000]
+	div_clk2:1:1 [1000]
+	gpll0_clk_src:3:3 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_boot_rom_ahb_clk:1:1 [0]
+	gcc_apss_tcu_async_clk:1:0 [0]
+	gcc_smmu_cfg_clk:1:0 [0]
+	apss_ahb_clk_src:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	usb30_master_clk_src:2:2 [133330000, 5] -> gpll0_clk_src:3:3 [800000000] -> xo_clk_src:4:4 [19200000]
+	sdcc1_apps_clk_src:1:1 [50000000, 3] -> gpll0_clk_src:3:3 [800000000] -> xo_clk_src:4:4 [19200000]
+	sdcc1_ice_core_clk_src:1:1 [160000000, 3] -> gpll0_clk_src:3:3 [800000000] -> xo_clk_src:4:4 [19200000]
+	usb30_mock_utmi_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	usb3_aux_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	gcc_mss_cfg_ahb_clk:1:1 [0]
+	gcc_mss_q6_bimc_axi_clk:1:1 [0]
+	gcc_pcnoc_usb3_axi_clk:1:1 [0] -> usb30_master_clk_src:2:2 [133330000, 5] -> gpll0_clk_src:3:3 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_sdcc1_ahb_clk:1:1 [0]
+	gcc_sdcc1_apps_clk:1:1 [50000000] -> sdcc1_apps_clk_src:1:1 [50000000, 3] -> gpll0_clk_src:3:3 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_sdcc1_ice_core_clk:1:1 [160000000] -> sdcc1_ice_core_clk_src:1:1 [160000000, 3] -> gpll0_clk_src:3:3 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_usb30_master_clk:1:1 [133330000] -> usb30_master_clk_src:2:2 [133330000, 5] -> gpll0_clk_src:3:3 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_usb30_mock_utmi_clk:1:1 [19200000] -> usb30_mock_utmi_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	gcc_usb30_sleep_clk:1:1 [0]
+	gcc_usb3_aux_clk:1:1 [19200000] -> usb3_aux_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	gcc_usb_phy_cfg_ahb_clk:2:2 [0]
+	gcc_qusb_ref_clk:1:1 [0]
+	gcc_usb_ss_ref_clk:1:1 [0]
+	gcc_usb3_pipe_clk:1:1 [0]
+	xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	a53ssmux_pwr:1:1 [652800000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	ccissmux:1:1 [261120000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	a53_pwr_clk:8:8 [652800000, 1] -> a53ssmux_pwr:1:1 [652800000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	cci_clk:8:8 [261120000, 1] -> ccissmux:1:1 [261120000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	audio_ext_pmi_clk:2:2 [0] -> div_clk2:1:1 [1000]
+Enabled clock count: 50
+---------------------- LDO --------------------------
+regulator.1 => name:pm8953_s5 state:enabled microvolt:770000
+regulator.13 => name:pm8953_s7_level_ao state:enabled microvolt:128
+regulator.17 => name:pm8953_l3 state:enabled microvolt:925000
+regulator.18 => name:pm8953_l5 state:enabled microvolt:1800000
+regulator.2 => name:pm8953_s5_avs_limit state:enabled microvolt:720000
+regulator.20 => name:pm8953_l7 state:enabled microvolt:1800000
+regulator.22 => name:pm8953_l8 state:enabled microvolt:2900000
+regulator.27 => name:pm8953_l13 state:enabled microvolt:3125000
+regulator.34 => name:eldo2_8953 state:enabled microvolt: N/A
+regulator.4 => name:apc_corner state:enabled microvolt:7
+regulator.46 => name:gdsc_usb30 state:enabled microvolt: N/A
+regulator.6 => name:pm8953_s1 state:enabled microvolt:1000000
+regulator.7 => name:pm8953_s2_level state:enabled microvolt:256
+==================== clock ============================
+156813.08 1065038.65
+Enabled clocks:
+	xo_clk_src:4:4 [19200000]
+	xo_a_clk_src:3:3 [19200000]
+	bimc_clk:1:1 [100000000]
+	bimc_a_clk:1:1 [211156992]
+	pcnoc_clk:1:1 [100000000]
+	pcnoc_a_clk:2:2 [100000000]
+	snoc_clk:1:1 [100000000]
+	snoc_a_clk:1:1 [100000000]
+	ipa_clk:1:1 [75000000]
+	bimc_msmbus_clk:1:1 [100000000] -> bimc_clk:1:1 [100000000]
+	bimc_msmbus_a_clk:1:1 [211156992] -> bimc_a_clk:1:1 [211156992]
+	pcnoc_keepalive_a_clk:1:1 [19200000] -> pcnoc_a_clk:2:2 [100000000]
+	pcnoc_msmbus_clk:1:1 [100000000] -> pcnoc_clk:1:1 [100000000]
+	pcnoc_msmbus_a_clk:1:1 [100000000] -> pcnoc_a_clk:2:2 [100000000]
+	snoc_msmbus_clk:1:1 [100000000] -> snoc_clk:1:1 [100000000]
+	snoc_msmbus_a_clk:1:1 [100000000] -> snoc_a_clk:1:1 [100000000]
+	xo_dwc3_clk:1:1 [19200000] -> xo_clk_src:4:4 [19200000]
+	bb_clk1:2:2 [1000]
+	div_clk2:1:1 [1000]
+	gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_boot_rom_ahb_clk:1:1 [0]
+	gcc_apss_tcu_async_clk:1:0 [0]
+	gcc_smmu_cfg_clk:1:0 [0]
+	apss_ahb_clk_src:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	usb30_master_clk_src:2:2 [133330000, 5] -> gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	usb30_mock_utmi_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	usb3_aux_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	gcc_mss_cfg_ahb_clk:1:1 [0]
+	gcc_mss_q6_bimc_axi_clk:1:1 [0]
+	gcc_pcnoc_usb3_axi_clk:1:1 [0] -> usb30_master_clk_src:2:2 [133330000, 5] -> gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_usb30_master_clk:1:1 [133330000] -> usb30_master_clk_src:2:2 [133330000, 5] -> gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_usb30_mock_utmi_clk:1:1 [19200000] -> usb30_mock_utmi_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	gcc_usb30_sleep_clk:1:1 [0]
+	gcc_usb3_aux_clk:1:1 [19200000] -> usb3_aux_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	gcc_usb_phy_cfg_ahb_clk:2:2 [0]
+	gcc_qusb_ref_clk:1:1 [0]
+	gcc_usb_ss_ref_clk:1:1 [0]
+	gcc_usb3_pipe_clk:1:1 [0]
+	xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	a53ssmux_pwr:1:1 [652800000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	ccissmux:1:1 [261120000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	a53_pwr_clk:8:8 [652800000, 1] -> a53ssmux_pwr:1:1 [652800000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	cci_clk:8:8 [261120000, 1] -> ccissmux:1:1 [261120000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	audio_ext_pmi_clk:2:2 [0] -> div_clk2:1:1 [1000]
+Enabled clock count: 45
+---------------------- LDO --------------------------
+regulator.1 => name:pm8953_s5 state:enabled microvolt:650000
+regulator.13 => name:pm8953_s7_level_ao state:enabled microvolt:128
+regulator.17 => name:pm8953_l3 state:enabled microvolt:925000
+regulator.18 => name:pm8953_l5 state:enabled microvolt:1800000
+regulator.2 => name:pm8953_s5_avs_limit state:enabled microvolt:600000
+regulator.20 => name:pm8953_l7 state:enabled microvolt:1800000
+regulator.22 => name:pm8953_l8 state:enabled microvolt:2900000
+regulator.27 => name:pm8953_l13 state:enabled microvolt:3125000
+regulator.34 => name:eldo2_8953 state:enabled microvolt: N/A
+regulator.4 => name:apc_corner state:enabled microvolt:4
+regulator.46 => name:gdsc_usb30 state:enabled microvolt: N/A
+regulator.6 => name:pm8953_s1 state:enabled microvolt:1000000
+regulator.7 => name:pm8953_s2_level state:enabled microvolt:256
+==================== clock ============================
+156816.35 1065085.42
+Enabled clocks:
+	xo_clk_src:4:4 [19200000]
+	xo_a_clk_src:3:3 [19200000]
+	bimc_clk:1:1 [100000000]
+	bimc_a_clk:1:1 [211156992]
+	pcnoc_clk:1:1 [100000000]
+	pcnoc_a_clk:2:2 [100000000]
+	snoc_clk:1:1 [100000000]
+	snoc_a_clk:1:1 [100000000]
+	ipa_clk:1:1 [75000000]
+	bimc_msmbus_clk:1:1 [100000000] -> bimc_clk:1:1 [100000000]
+	bimc_msmbus_a_clk:1:1 [211156992] -> bimc_a_clk:1:1 [211156992]
+	pcnoc_keepalive_a_clk:1:1 [19200000] -> pcnoc_a_clk:2:2 [100000000]
+	pcnoc_msmbus_clk:1:1 [100000000] -> pcnoc_clk:1:1 [100000000]
+	pcnoc_msmbus_a_clk:1:1 [100000000] -> pcnoc_a_clk:2:2 [100000000]
+	snoc_msmbus_clk:1:1 [100000000] -> snoc_clk:1:1 [100000000]
+	snoc_msmbus_a_clk:1:1 [100000000] -> snoc_a_clk:1:1 [100000000]
+	xo_dwc3_clk:1:1 [19200000] -> xo_clk_src:4:4 [19200000]
+	bb_clk1:2:2 [1000]
+	div_clk2:1:1 [1000]
+	gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_boot_rom_ahb_clk:1:1 [0]
+	gcc_apss_tcu_async_clk:1:0 [0]
+	gcc_smmu_cfg_clk:1:0 [0]
+	apss_ahb_clk_src:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	usb30_master_clk_src:2:2 [133330000, 5] -> gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	usb30_mock_utmi_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	usb3_aux_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	gcc_mss_cfg_ahb_clk:1:1 [0]
+	gcc_mss_q6_bimc_axi_clk:1:1 [0]
+	gcc_pcnoc_usb3_axi_clk:1:1 [0] -> usb30_master_clk_src:2:2 [133330000, 5] -> gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_usb30_master_clk:1:1 [133330000] -> usb30_master_clk_src:2:2 [133330000, 5] -> gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_usb30_mock_utmi_clk:1:1 [19200000] -> usb30_mock_utmi_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	gcc_usb30_sleep_clk:1:1 [0]
+	gcc_usb3_aux_clk:1:1 [19200000] -> usb3_aux_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	gcc_usb_phy_cfg_ahb_clk:2:2 [0]
+	gcc_qusb_ref_clk:1:1 [0]
+	gcc_usb_ss_ref_clk:1:1 [0]
+	gcc_usb3_pipe_clk:1:1 [0]
+	xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	a53ssmux_pwr:1:1 [652800000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	ccissmux:1:1 [261120000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	a53_pwr_clk:8:8 [652800000, 1] -> a53ssmux_pwr:1:1 [652800000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	cci_clk:8:8 [261120000, 1] -> ccissmux:1:1 [261120000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	audio_ext_pmi_clk:2:2 [0] -> div_clk2:1:1 [1000]
+Enabled clock count: 45
+---------------------- LDO --------------------------
+regulator.1 => name:pm8953_s5 state:enabled microvolt:650000
+regulator.13 => name:pm8953_s7_level_ao state:enabled microvolt:128
+regulator.17 => name:pm8953_l3 state:enabled microvolt:925000
+regulator.18 => name:pm8953_l5 state:enabled microvolt:1800000
+regulator.2 => name:pm8953_s5_avs_limit state:enabled microvolt:600000
+regulator.20 => name:pm8953_l7 state:enabled microvolt:1800000
+regulator.22 => name:pm8953_l8 state:enabled microvolt:2900000
+regulator.27 => name:pm8953_l13 state:enabled microvolt:3125000
+regulator.34 => name:eldo2_8953 state:enabled microvolt: N/A
+regulator.4 => name:apc_corner state:enabled microvolt:1
+regulator.46 => name:gdsc_usb30 state:enabled microvolt: N/A
+regulator.6 => name:pm8953_s1 state:enabled microvolt:1000000
+regulator.7 => name:pm8953_s2_level state:enabled microvolt:256
+==================== clock ============================
+156819.70 1065117.75
+Enabled clocks:
+	xo_clk_src:4:4 [19200000]
+	xo_a_clk_src:3:3 [19200000]
+	bimc_clk:1:1 [100000000]
+	bimc_a_clk:1:1 [211156992]
+	pcnoc_clk:1:1 [100000000]
+	pcnoc_a_clk:2:2 [100000000]
+	snoc_clk:1:1 [100000000]
+	snoc_a_clk:1:1 [100000000]
+	ipa_clk:1:1 [75000000]
+	bimc_msmbus_clk:1:1 [100000000] -> bimc_clk:1:1 [100000000]
+	bimc_msmbus_a_clk:1:1 [211156992] -> bimc_a_clk:1:1 [211156992]
+	pcnoc_keepalive_a_clk:1:1 [19200000] -> pcnoc_a_clk:2:2 [100000000]
+	pcnoc_msmbus_clk:1:1 [100000000] -> pcnoc_clk:1:1 [100000000]
+	pcnoc_msmbus_a_clk:1:1 [100000000] -> pcnoc_a_clk:2:2 [100000000]
+	snoc_msmbus_clk:1:1 [100000000] -> snoc_clk:1:1 [100000000]
+	snoc_msmbus_a_clk:1:1 [100000000] -> snoc_a_clk:1:1 [100000000]
+	xo_dwc3_clk:1:1 [19200000] -> xo_clk_src:4:4 [19200000]
+	bb_clk1:2:2 [1000]
+	div_clk2:1:1 [1000]
+	gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_boot_rom_ahb_clk:1:1 [0]
+	gcc_apss_tcu_async_clk:1:0 [0]
+	gcc_smmu_cfg_clk:1:0 [0]
+	apss_ahb_clk_src:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	usb30_master_clk_src:2:2 [133330000, 5] -> gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	usb30_mock_utmi_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	usb3_aux_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	gcc_mss_cfg_ahb_clk:1:1 [0]
+	gcc_mss_q6_bimc_axi_clk:1:1 [0]
+	gcc_pcnoc_usb3_axi_clk:1:1 [0] -> usb30_master_clk_src:2:2 [133330000, 5] -> gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_usb30_master_clk:1:1 [133330000] -> usb30_master_clk_src:2:2 [133330000, 5] -> gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_usb30_mock_utmi_clk:1:1 [19200000] -> usb30_mock_utmi_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	gcc_usb30_sleep_clk:1:1 [0]
+	gcc_usb3_aux_clk:1:1 [19200000] -> usb3_aux_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	gcc_usb_phy_cfg_ahb_clk:2:2 [0]
+	gcc_qusb_ref_clk:1:1 [0]
+	gcc_usb_ss_ref_clk:1:1 [0]
+	gcc_usb3_pipe_clk:1:1 [0]
+	xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	a53ssmux_pwr:1:1 [652800000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	ccissmux:1:1 [261120000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	a53_pwr_clk:8:8 [652800000, 1] -> a53ssmux_pwr:1:1 [652800000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	cci_clk:8:8 [261120000, 1] -> ccissmux:1:1 [261120000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	audio_ext_pmi_clk:2:2 [0] -> div_clk2:1:1 [1000]
+Enabled clock count: 45
+---------------------- LDO --------------------------
+regulator.1 => name:pm8953_s5 state:enabled microvolt:650000
+regulator.13 => name:pm8953_s7_level_ao state:enabled microvolt:128
+regulator.17 => name:pm8953_l3 state:enabled microvolt:925000
+regulator.18 => name:pm8953_l5 state:enabled microvolt:1800000
+regulator.2 => name:pm8953_s5_avs_limit state:enabled microvolt:600000
+regulator.20 => name:pm8953_l7 state:enabled microvolt:1800000
+regulator.22 => name:pm8953_l8 state:enabled microvolt:2900000
+regulator.27 => name:pm8953_l13 state:enabled microvolt:3125000
+regulator.34 => name:eldo2_8953 state:enabled microvolt: N/A
+regulator.4 => name:apc_corner state:enabled microvolt:2
+regulator.46 => name:gdsc_usb30 state:enabled microvolt: N/A
+regulator.6 => name:pm8953_s1 state:enabled microvolt:1000000
+regulator.7 => name:pm8953_s2_level state:enabled microvolt:256
+==================== clock ============================
+156823.02 1065130.22
+Enabled clocks:
+	xo_clk_src:4:4 [19200000]
+	xo_a_clk_src:3:3 [19200000]
+	bimc_clk:1:1 [100000000]
+	bimc_a_clk:1:1 [211156992]
+	pcnoc_clk:1:1 [100000000]
+	pcnoc_a_clk:2:2 [100000000]
+	snoc_clk:1:1 [100000000]
+	snoc_a_clk:1:1 [100000000]
+	ipa_clk:1:1 [75000000]
+	bimc_msmbus_clk:1:1 [100000000] -> bimc_clk:1:1 [100000000]
+	bimc_msmbus_a_clk:1:1 [211156992] -> bimc_a_clk:1:1 [211156992]
+	pcnoc_keepalive_a_clk:1:1 [19200000] -> pcnoc_a_clk:2:2 [100000000]
+	pcnoc_msmbus_clk:1:1 [100000000] -> pcnoc_clk:1:1 [100000000]
+	pcnoc_msmbus_a_clk:1:1 [100000000] -> pcnoc_a_clk:2:2 [100000000]
+	snoc_msmbus_clk:1:1 [100000000] -> snoc_clk:1:1 [100000000]
+	snoc_msmbus_a_clk:1:1 [100000000] -> snoc_a_clk:1:1 [100000000]
+	xo_dwc3_clk:1:1 [19200000] -> xo_clk_src:4:4 [19200000]
+	bb_clk1:2:2 [1000]
+	div_clk2:1:1 [1000]
+	gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_boot_rom_ahb_clk:1:1 [0]
+	gcc_apss_tcu_async_clk:1:0 [0]
+	gcc_smmu_cfg_clk:1:0 [0]
+	apss_ahb_clk_src:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	usb30_master_clk_src:2:2 [133330000, 5] -> gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	usb30_mock_utmi_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	usb3_aux_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	gcc_mss_cfg_ahb_clk:1:1 [0]
+	gcc_mss_q6_bimc_axi_clk:1:1 [0]
+	gcc_pcnoc_usb3_axi_clk:1:1 [0] -> usb30_master_clk_src:2:2 [133330000, 5] -> gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_usb30_master_clk:1:1 [133330000] -> usb30_master_clk_src:2:2 [133330000, 5] -> gpll0_clk_src:1:1 [800000000] -> xo_clk_src:4:4 [19200000]
+	gcc_usb30_mock_utmi_clk:1:1 [19200000] -> usb30_mock_utmi_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	gcc_usb30_sleep_clk:1:1 [0]
+	gcc_usb3_aux_clk:1:1 [19200000] -> usb3_aux_clk_src:1:1 [19200000, 2] -> xo_clk_src:4:4 [19200000]
+	gcc_usb_phy_cfg_ahb_clk:2:2 [0]
+	gcc_qusb_ref_clk:1:1 [0]
+	gcc_usb_ss_ref_clk:1:1 [0]
+	gcc_usb3_pipe_clk:1:1 [0]
+	xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	a53ssmux_pwr:1:1 [652800000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	ccissmux:1:1 [261120000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	a53_pwr_clk:8:8 [652800000, 1] -> a53ssmux_pwr:1:1 [652800000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	cci_clk:8:8 [261120000, 1] -> ccissmux:1:1 [261120000] -> apcs_hf_pll:2:2 [652800000, 1] -> xo_a_clk:1:1 [19200000] -> xo_a_clk_src:3:3 [19200000]
+	audio_ext_pmi_clk:2:2 [0] -> div_clk2:1:1 [1000]
+Enabled clock count: 45
+---------------------- LDO --------------------------
+regulator.1 => name:pm8953_s5 state:enabled microvolt:650000
+regulator.13 => name:pm8953_s7_level_ao state:enabled microvolt:128
+regulator.17 => name:pm8953_l3 state:enabled microvolt:925000
+regulator.18 => name:pm8953_l5 state:enabled microvolt:1800000
+regulator.2 => name:pm8953_s5_avs_limit state:enabled microvolt:600000
+regulator.20 => name:pm8953_l7 state:enabled microvolt:1800000
+regulator.22 => name:pm8953_l8 state:enabled microvolt:2900000
+regulator.27 => name:pm8953_l13 state:enabled microvolt:3125000
+regulator.34 => name:eldo2_8953 state:enabled microvolt: N/A
+regulator.4 => name:apc_corner state:enabled microvolt:3
+regulator.46 => name:gdsc_usb30 state:enabled microvolt: N/A
+regulator.6 => name:pm8953_s1 state:enabled microvolt:1000000
+regulator.7 => name:pm8953_s2_level state:enabled microvolt:256

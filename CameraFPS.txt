@@ -1,0 +1,96 @@
+adb shell setprop persist.debug.sf.showfps 1
+
+8953: adb shell setprop persist.camera.sensor.debug 5
+8937: adb shell setprop persist.camera.hal.debug 5
+
+Config below if invalid above method
+adb shell mkdir /data/misc/gpu
+adb shell chmod 777 /data/misc/gpu
+adb shell "echo EnableFpsLog=TRUE > /data/misc/gpu/esx_config.txt"
+adb shell chmod 777 /data/misc/gpu
+
+fps:
+PROFILE_Preview 
+PROFILE_Video
+
+adb logcat -v time | grep PROFILE_ > xx.log
+
+
+tcpip:
+adb root
+adb remount
+adb shell
+tcpdump -i any -s 0 -w /data/tcpdump.pcap & 
+adb shell kill 2920 
+adb pull /data/tcpdump.pcap
+
+
+if [ "$number" == "0" ]; then
+	echo "Need $((3+3))s";
+	echo "Start after $delay_time s , you can remove USB";
+	sleep $delay_time;
+	basic_process;
+elif [ "$number" == "1" ]; then
+	echo "Need $$((7*cycles+3))s";
+	echo "Start after $delay_time s , you can remove USB";
+	sleep $delay_time;
+	top_process;
+elif [ "$number" == "2" ]; then
+	echo "Need 21s";
+	echo "Start after $delay_time s , you can remove USB";
+	sleep $delay_time && clk_ldo_process &
+elif [ "$number" == "3" ]; then
+	echo "Need 13s";
+	echo "Start after $delay_time s , you can remove USB";
+	sleep $delay_time;
+    wake_process;
+elif [ "$number" == "4" ]; then
+	echo "Need 4s";
+	echo "Start after $delay_time s , you can remove USB";
+	sleep $delay_time;
+    lpm_process;
+elif [ "$number" == "5" ]; then
+	echo "Need 4s";
+	echo "Start after $delay_time s, you can remove USB";
+	sleep $delay_time;
+    rpm_process;
+elif [ "$number" == "6" ]; then
+	echo "Need 15s";
+	echo "Start after $delay_time s, you can remove USB";
+	sleep $delay_time;
+    dmesg_process;
+elif [ "$number" == "12" ]; then
+	echo "input seconds :";	
+	read -r seconds
+	echo "Start after $delay_time s, you can remove USB";
+	sleep $delay_time;
+    tcp_process $seconds;
+elif [ "$number" == "13" ]; then
+	echo "Start after $delay_time s, you can remove USB";
+	sleep $delay_time;
+	tracing_process;
+elif [ "$number" == "14" ]; then
+	echo "Start after $delay_time s, you can remove USB";
+	sleep $delay_time;
+	thermal_process;
+elif [ "$number" == "15"]; then
+	echo "Start after $delay_time s, you can remove USB";
+	sleep $delay_time;
+	fps_process;
+elif [ "$number" == "a" ]; then
+    echo "dump all";
+    if [ ! -e "/data/powertop" ]; then
+      echo "no powertop in /data/ !!!, do you want to continue? Y or N";
+      read -r input
+	    if [ "$input" == "Y" ] || [ "$input" == "y" ]; then
+		  all_process &
+		else
+		  echo "";
+		fi
+	else
+      all_process &
+	fi
+
+else
+	echo "q or invalid, exiting..."
+fi

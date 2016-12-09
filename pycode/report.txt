@@ -1,0 +1,14 @@
+Date Time: 2016-09-09 13:17:16//infor
+
+Build: MSM8953.LA.1.0.c5-00027-M8953.64.SLD.1XGWLT.HY11-1
+
+Linux version: Linux version 3.18.24-perf-g36e7b62-00076-gb8ae7b5 (lnxbuild@bait-prodbl-52-lv-lnx) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Aug 8 10:12:08 PDT 2016
+
+Serial number: 8fbd841
+
+Hardware: qcom
+
+charging?: Charging//infor
+
+cmdline :
+

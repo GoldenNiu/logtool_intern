@@ -1,0 +1,7 @@
+Date Time
+Build
+Linux version
+Serial number
+Hardware
+charging
+cmdline
